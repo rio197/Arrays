@@ -16,6 +16,10 @@ public class Arrays {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        String[] fruits = {"apples", "oranges", "grapes"};
         
+        for (int i=0;i<fruits.length;i++) {
+            System.out.println(fruits[i]);
+        }
     }
 }
